@@ -10,7 +10,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 100vh;
+  height: 100vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +19,12 @@ body {
 
 .login-container {
   background: white;
-  padding: 40px;
+  padding: 20px;
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 350px;
-  height: 350px;
+  max-width: 250px;
+  height: 250px;
   transform: translateY(0);
   transition: transform 0.3s ease;
 }
@@ -34,29 +35,35 @@ body {
 
 .login-header {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .login-header h1 {
   color: #333;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 1px;
 }
 
 .login-header p {
   color: #666;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+
+.input{
+  height: 10px;
+
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   color: #555;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .form-group input {
@@ -64,7 +71,7 @@ body {
   padding: 15px;
   border: 2px solid #e1e5e9;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 10px;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -81,11 +88,12 @@ body {
   color: white;
   border: none;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 600;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin-top: 10px;
+  height: 40px;
 }
 
 .btn-login:hover {

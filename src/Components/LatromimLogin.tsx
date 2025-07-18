@@ -55,10 +55,10 @@ const LatromiLogin: React.FC = () => {
 
       <div className="form-group">
         <label htmlFor="username">Usuário</label>
-        <input
+        <input className='input'
           type="text"
           id="username"
-          placeholder="Digite seu usuário"
+          placeholder ="Digite seu usuário"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           required
@@ -67,7 +67,7 @@ const LatromiLogin: React.FC = () => {
 
       <div className="form-group">
         <label htmlFor="password">Senha</label>
-        <input
+        <input className='input'
           type="password"
           id="password"
           placeholder="Digite sua senha"
