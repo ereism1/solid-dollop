@@ -28,7 +28,7 @@ const LatromiLogin: React.FC = () => {
             setAuthToken(authResult.authToken);
             alert('Autenticado');
 
-            window.location.assign(baseURL + "/?authtk=" + authResult.authToken);
+            window.location.assign("Autenticado! Você será redirecionado para a página principal.");
           }
         } else {
           setErrorMessage(

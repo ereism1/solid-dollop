@@ -7,7 +7,7 @@ icons: {
   },
 
   title: 'Corelog',
-  description: 'Descrição do meu App',
+  description: 'no description',
 };
 
 export default function RootLayout({
