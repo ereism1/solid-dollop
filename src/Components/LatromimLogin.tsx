@@ -10,7 +10,7 @@ const LatromiLogin: React.FC = () => {
   const [successMessage, setSuccessMessage] = useState('');
 
   const handleLogin = () => {
-    const baseURL = 'https://corelog.avaconcloud.com/web';
+    const baseURL = 'https://homolog.corelog.com.br/web/Login';
     const authURL = baseURL + '/Services/Authentication.svc/rest/authenticate2';
 
     const xhttp = new XMLHttpRequest();
