@@ -2,7 +2,11 @@ import React from 'react';
 import './globals.css'; // ou o CSS global que você usa
 
 export const metadata = {
-  title: 'Meu App',
+icons: {
+    icon: '/favicon.png',
+  },
+
+  title: 'Corelog',
   description: 'Descrição do meu App',
 };
 
