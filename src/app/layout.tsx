@@ -1,9 +1,10 @@
+import Head from 'next/head';
 import React from 'react';
 import './globals.css'; // ou o CSS global que você usa
 
 export const metadata = {
 icons: {
-    icon: '/favicon.png',
+    icon: '/favicon.ico',
   },
 
   title: 'Corelog',
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <head><link rel="icon" href="/favicon.png" type="image/png" /></head>
+      <Head><link rel="icon" href="/favicon.ico" type="image/x-icon" /></Head>
       <body>{children}</body>
     </html>
   );
